@@ -69,7 +69,7 @@ Should detail:
 - Get specific part numbers and buy in bulk.
 - Favor parts available from Automation Direct and McMaster-Carr.
 
-Pending [CAN Bus Connectors](<Fall_&_Winter_Action_Items_25#CAN Bus Connectors>) decision.
+Pending [CAN Bus Connectors](#can bus connectors) decision.
 
 ## Recycle robot batteries
 
