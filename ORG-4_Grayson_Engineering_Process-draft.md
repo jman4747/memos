@@ -213,6 +213,7 @@ Minimize changes and focus on developing operations and training documentation, 
 ## Initial Competition Robot
 
 An initial competition robot shall be ready for practice no less than one (1) week before the first district qualifier.
+In 2026 the deadline would be: 2026-03-06.
 
 ## Upgrades
 
@@ -247,5 +248,5 @@ Final Design & Fabrication Phase:
 - Final CAD: 2026-02-21
 
 Assembly, Integration & Test, Launch Phase:
-- First Version Competition Robot: 2026-03-08
-- First District Qualifier: 2026-03-TBD
+- First Version Competition Robot: 2026-03-06
+- First District Qualifier (Gwinnet): 2026-03-13
