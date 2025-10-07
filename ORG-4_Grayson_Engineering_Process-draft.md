@@ -249,4 +249,4 @@ Final Design & Fabrication Phase:
 
 Assembly, Integration & Test, Launch Phase:
 - First Version Competition Robot: 2026-03-06
-- First District Qualifier (Gwinnet): 2026-03-13
+- First District Qualifier (Gwinnett): 2026-03-13
