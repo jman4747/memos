@@ -11,7 +11,11 @@ If you want me to look at anything in person schedule a weekend meeting.
 ## Changelog
 
 ### 0: 2025-09-29
- - Initial release.
+- Initial release.
+
+### 1: 2025-10-07
+- spelling
+- battery sponsors
 
 # Git Hub
 
@@ -51,6 +55,22 @@ You don't need any fancy pose estimation just data from the camera, gyro, encode
 - Translate (including sideways for swerve) some distance via encoders
 - Rotate by some number of degrees
 
+# Batteries Plus
+
+For Outreach, Electrical, and Operations departments.
+
+Attempt to obtain sponsorship when next recycling batteries:
+
+Split old batteries between these locations:
+ - 905 Parkside Walk Lane Suite 101, Lawrenceville, GA 30043
+ - 2324 Ronald Reagan Pkwy, Snellville, GA 30078 
+
+Outreach shall plan the interaction and prepare contact info.
+Operations shall plan the transport of batteries.
+Electrical shall prepare batteries for recycling.
+
+Ask Josh for details at next in-person meeting. 
+
 # Electrical
 
 Standardizing hardware and setting up batteries.
@@ -75,6 +95,8 @@ Pending [CAN Bus Connectors](https://github.com/jman4747/ACT-DCS/blob/main/2025/
 
 Remove cables and save all related hardware.
 
+Combine with Batteries Plus sponsor ask.
+
 ## Robot Battery Standards
 
 Refine the existing document.
@@ -90,7 +112,7 @@ It should also include the led indicator patterns for all devices on the robot e
 
 1. Create a maintenance plan and mount it.
 2. Order tooling for:
-	1. Making untreaded spacers from tube stock
+	1. Making non-threaded spacers from tube stock
 	2. Parting stock to length
 	3. Making threaded spacers (drilling and tapping ends of stock)
 
