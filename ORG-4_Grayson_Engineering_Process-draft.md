@@ -34,6 +34,7 @@ All team members will need to read and understand all of these as every departme
 has responsibilities requiring knowledge of the game manual.
 
 There are less obvious reasons that team members would need to read the manual, for example:
+
 - Conduct rules common to all competition events.
 - How the ranking system breaks ties matters to the Strategy dept
 - The theme, cosmetic markings, and design of field elements is important to the marketing team for obtaining the Imagery Award.
@@ -50,6 +51,7 @@ Most systems engineering work happens here.
 
 We build prototypes mostly to tell how we can handle game-pieces and nothing else.
 For example:
+
 - We would want to know how different materials grip the game piece.
 - How it slides on other materials.
 - Build mock-ups to see how many game pieces we could hold at once and how they might be arranged.
@@ -72,8 +74,9 @@ After the season begins, the team shall set more specific goals that refer to th
 Engineering departments shall analyze how game pieces interact with different materials and common mechanisms.
 
 For example:
+
 - How much time a 2025 Coral takes to slide down the feeder station ramp.
-- What materials would allow a 2013 Frizbee to slide freely.
+- What materials would allow a 2013 Frisbee to slide freely.
 
 All engineering departments shall use this information to check that their designs are feasible.
 
@@ -84,7 +87,7 @@ It is forbidden for team members to create more involved prototypes prior to app
 The strategy dept shall create a draft strategy (a plan to meet the Season Goals) and seek approval from each department for this plan.
 The strategy shall include both scoring priorities and competition plans.
 
-### Gameplay Analysis
+### Game-play Analysis
 
 Analyze how long different actions may take.
 Find the theoretical maximum number of times a team could score via particular methods, and try to estimate what the maximum scores could be based on physical limitations.
@@ -100,6 +103,7 @@ The strategy shall prioritize scoring types that serve as tie-breakers for the t
 ### Competition Plans
 
 Competition plans should seek to answer, at a minimum, these questions:
+
 - What data needs to be collected during and at competition?
 - Priority ranking between match plans; which are more important?
 - Which match plans need to be realized by each competition?
@@ -141,7 +145,7 @@ This should start as soon as the strategy is complete and agreed upon.
 
 ## System Needs Analysis (SA)
 
-Given the [[#Operational Analysis (OA)]], answer the question: "what, of everything the team needs to do, will the robot do?"
+Given the [OA](#operational-analysis-oa), answer the question: "Of everything the team needs to do, what will the robot do?"
 
 Software development for the main robot can start using the completed SA.
 
@@ -173,6 +177,7 @@ Select the combination of prototypes that will ultimately be combined into a fin
 This will constitute a complete robot concept and shall be agreed upon by all team members.
 
 Decision factors for relative comparison:
+
 - readjustment or calibration during competition
 - how many sensors
 - what kinds of sensors
@@ -193,6 +198,17 @@ what specific components will be used through both 3D CAD and written technical 
 ## Physical Architecture (PA)
 
 What specific parts the robot is made of and how it does what it does.
+The PA takes the abstract model of [LA](#logical-architecture-la) and assigns specific components to the logical sub-systems described by the [LA](#logical-architecture-la).
+
+The PA document shall describe what prototypes we select to build the prototype robot and why.
+The PA document shall describe how the prototypes will interact with each other in as much detail as each engineering department requires.
+This shall be updated throughout the Final Design & Fabrication phase as more refinement becomes necessary.
+
+The PA documentation shall be comprised of at least:
+
+- [CAD](#final-cad)
+- Wire diagram or connection list
+- Operator procedures & checklists
 
 ## Prototype Robot
 
@@ -223,6 +239,7 @@ Furthermore, the designers shall produce a plan for restoring the competition ro
 # Schedule 2026
 
 Concept & Technology Development Phase:
+
 - Kickoff: 2026-01-03
 - Field Elements Constructed: 2026-01-06
 	- Manufacturing dept
@@ -235,6 +252,7 @@ Concept & Technology Development Phase:
 	- Systems Engineering dept
 
 Preliminary Design & Technical Development Phase:
+
 - Logical Architecture: 2026-01-28
 	- Systems Engineering dept
 - Acquire-Deposit Prototype Selection: 2026-01-30
@@ -243,10 +261,12 @@ Preliminary Design & Technical Development Phase:
 	- Systems Engineering dept
 
 Final Design & Fabrication Phase:
+
 - Physical Architecture: 2026-02-09
 - Prototype Robot: 2026-02-14
 - Final CAD: 2026-02-21
 
 Assembly, Integration & Test, Launch Phase:
+
 - First Version Competition Robot: 2026-03-06
 - First District Qualifier (Gwinnett): 2026-03-13
