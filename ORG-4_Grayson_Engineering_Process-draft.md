@@ -222,6 +222,9 @@ Robot code should be built with abstractions that allow most logic to be reused 
 The final CAD should include details down to individual components expected to be assembled or manufactured by Grayson Robotics.
 Furthermore, components shall have material properties set or have their weight manually entered to ensure accurate weight estimation.
 
+The model should generally exclude individual wires and connectors except where the Electrical dept expects the connector to be disconnected as part of normal operation.
+Routing paths for wire harnesses should be modeled to ensure that designers consider what paths and surfaces are safe for wires and where wires are expected to flex with a moving mechanism.
+
 # Assembly, Integration & Test, Launch
 
 Minimize changes and focus on developing operations and training documentation, and operator practice.
