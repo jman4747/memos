@@ -24,13 +24,13 @@ Concept studies mostly occurs at the game design phase handled by FIRST, but the
 is still responsible for setting its goals for the season. The outputs of this phase are
 the Game Manual (and associated field design materials) and the teams goals for the season.
 We decide and document our season goals before the season starts, as such they are
-agnostic with respect to whatever the specific game will entail.
+agnostic with respect to the game rules.
 
 ## Game Manual
 
 The Game Manual provides three important categories of information:
 fabrication requirements, game & tournament rules, and field specifications.
-All team members will need to read and understand all of these as every department
+All team members need to read and understand the rules, as every department
 has responsibilities requiring knowledge of the game manual.
 
 There are less obvious reasons that team members would need to read the manual, for example:
@@ -49,7 +49,7 @@ Remember: goals aren't strategy.
 Figure out how we want to play the game.
 Most systems engineering work happens here.
 
-We build prototypes mostly to tell how we can handle game-pieces and nothing else.
+At this stage, we build prototypes to understand how we can handle game-pieces and nothing else.
 For example:
 
 - We would want to know how different materials grip the game piece.
@@ -80,7 +80,7 @@ For example:
 
 All engineering departments shall use this information to check that their designs are feasible.
 
-It is forbidden for team members to create more involved prototypes prior to approval of the Strategy so as not to bias the strategy development.
+Team members are forbidden from creating more involved prototypes prior to approval of the Strategy, so as not to bias the strategy development.
 
 ## Strategy
 
@@ -126,7 +126,7 @@ The OA depends on the strategy but the Systems dept can start work, based on the
 Once the team approves the strategy, the Systems dept shall complete the OA.
 
 This document will be used by all departments not just engineering.
-For example: operations would need it as a starting point to know what to pack and how to set up the cart.
+For example: operations would need it as a starting point to know what to bring to competitions and how to set up the cart.
 With that in mind, the Systems Engineering dept shall consider everything the team will need to do at a competition, not just what happens during in matches.
 
 ### Match Plans
@@ -157,7 +157,7 @@ Set final performance requirements using the prototypes to ensure that the requi
 
 ## Interface Options Prototyping
 
-Prototype the mechanisms that will get game pieces from intake sub-systems to scoring sub-systems.
+Prototype the mechanisms that will transfer game pieces from intake sub-systems to scoring sub-systems.
 This should start as soon as the System Needs Analysis is complete as we will want to be sure that the robot will need the mechanism.
 
 ## Logical Architecture (LA)
@@ -169,7 +169,7 @@ This allows you to describe what may become physically interdependent sub-system
 It may be the case that a particular mechanical device is responsible for handling two completely different functions,
 but it would be too limiting to decide this before all functions are enumerated.
 For example: in 2025 one would model the Coral and Algae lifts as two separate logical components.
-Even though they may be the same physical hardware, there are different requirements for handling each game element which are best discovered by considering the two subsystems independently.
+Even though they may be the same physical hardware, they will have different requirements for handling each game element that are best discovered by considering the two subsystems independently.
 
 ## Prototype Selection
 
@@ -243,29 +243,29 @@ Furthermore, the designers shall produce a plan for restoring the competition ro
 
 Concept & Technology Development Phase:
 
-- Kickoff: 2026-01-03
-- Field Elements Constructed: 2026-01-06
+- Kickoff: 2026-01-10
+- Field Elements Constructed: 2026-01-11
 	- Manufacturing dept
-- Strategy Completed: 2026-01-07
+- Strategy Completed: 2026-01-15
 	- Strategy dept: draft
 	- All members: approve
-- Operational Analysis complete: 2026-01-13
+- Operational Analysis complete: 2026-01-17
 	- Systems Engineering dept
-- System Needs Analysis: 2026-01-18
+- System Needs Analysis: 2026-01-19
 	- Systems Engineering dept
 
 Preliminary Design & Technical Development Phase:
 
-- Logical Architecture: 2026-01-28
+- Logical Architecture: 2026-01-24
 	- Systems Engineering dept
-- Acquire-Deposit Prototype Selection: 2026-01-30
+- Acquire-Deposit Prototype Selection: 2026-01-31
 	- Systems Engineering dept
-- Interface Prototype Selection: 2026-02-05 
+- Interface Prototype Selection: 2026-02-07 
 	- Systems Engineering dept
 
 Final Design & Fabrication Phase:
 
-- Physical Architecture: 2026-02-09
+- Physical Architecture: 2026-02-14
 - Prototype Robot: 2026-02-14
 - Final CAD: 2026-02-21
 
