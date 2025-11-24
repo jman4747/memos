@@ -2,6 +2,7 @@
 
 - Explain the engineering process
 - Map our engineering process to NASA process
+- Map our systems engineering process to the Arcadia method
 
 # Overview
 
@@ -16,13 +17,55 @@ Research includes prototyping, R&D taking place before the season, and researchi
 
 Designs must be validated by prototypes, manufacturing standards, or prior work and justified, at least transitively, by the strategy.
 
-All prototypes must test a documented hypothesis.
+## Prototypes
+All prototypes shall test a documented hypothesis.
+Team members building prototypes shall document:
+the hypothesis being tested, the part of the strategy they intend to fulfill, and the part of the system design they intend to implement.
+
+## User Stories
+
+User Story Mapping is a method for capturing a narrative description of stakeholder goals and strategy.
+
+User Stories are documented with sub-formal Use Cases and and other informal written and visual methods.
+
+## Use Cases
+
+Written behavioral requirements for the SuD.
+
+### Sub-Formal Use Case Format
+
+- Title
+- Primary Actor
+- Date
+- Scope
+- Goal In Context
+- Scenario
+- Notes
+
+### Formal Use Case Format
+
+- All fields from the sub formal format (except Scenario)
+- Stakeholders & Interests
+- Precondition
+- Minimal Guarantees
+- Success Guarantees
+- Trigger
+- Main Success Scenario
+- Extensions
+- Response Time
+- Frequency
+- Secondary Actors
+- Open Issues
+
+## Requirements
+
+Tables for functional requirements and for non-functional requirements for the SuD.
 
 # Concept Studies
 
 Concept studies mostly occurs at the game design phase handled by FIRST, but the team
 is still responsible for setting its goals for the season. The outputs of this phase are
-the Game Manual (and associated field design materials) and the teams goals for the season.
+the Game Manual (and associated field design materials) the teams goals for the season, and a preliminary strategy.
 We decide and document our season goals before the season starts, as such they are
 agnostic with respect to the game rules.
 
@@ -39,10 +82,19 @@ There are less obvious reasons that team members would need to read the manual, 
 - How the ranking system breaks ties matters to the Strategy dept
 - The theme, cosmetic markings, and design of field elements is important to the marketing team for obtaining the Imagery Award.
 
-## Season Goals
+## Team Goals
 
-Grayson Robotics shall document our goals are prior to the beginning of the build season.
-Remember: goals aren't strategy.
+Grayson Robotics shall document our goals are prior to the beginning of the build season:
+
+- Each department shall document goals for that department as a User Story.
+- The strategy department shall incorporate each departments goals into a unified User Story
+
+## Preliminary Strategy
+
+Grayson Robotics shall document a preliminary strategy prior to the beginning of the build season:
+
+- Each department shall create a draft strategy for their role in achieving the [Team Goals](#team-goals) in the form of a user story.
+- The strategy department shall incorporate each departments strategy into a unified User Story.
 
 # Concept & Technology Development
 
@@ -66,8 +118,7 @@ The team shall ensure a budget is available on Kickoff for this purpose and obta
 
 ## Season Goals
 
-Prior to the start of the season, the team shall document its goals for the upcoming season.
-After the season begins, the team shall set more specific goals that refer to the game and extend the goals documented before the start of the season.
+After the season begins, the team shall set more specific goals that refer to the game and extend the [Team Goals](#team-goals) documented before the start of the season.
 
 ## Handling Analysis
 
@@ -95,10 +146,13 @@ Use this to set preliminary performance targets, the feasibility of which will b
 
 Analyze the Degrees of Freedom (DoF) involved in scoring; an axis of rotation or translation or a part of the robot or game piece/field element.
 
+The Systems Engineering department shall maintain a Game-Play Analysis document containing the aforementioned calculations and listing all identified DoF.
+
 ### Scoring Priorities
 
 Set priority levels between different scoring methods rather than detailing individual match plans.
 The strategy shall prioritize scoring types that serve as tie-breakers for the tournament ranking.
+The strategy department shall maintain a special document for this purpose.
 
 ### Competition Plans
 
@@ -112,6 +166,8 @@ Competition plans should seek to answer, at a minimum, these questions:
 - What awards will we aim for?
 - What aspects of the team/robot will we emphasize to judges to get awards?
 - What types of scoring will we prioritize at the event? (Helps decide which sub-systems get priority for completion.)
+
+Competition plans shall take the form of User Stories collected from each department that detail their plans for each competition.
 
 ## Strategy Verification
 
@@ -129,9 +185,11 @@ This document will be used by all departments not just engineering.
 For example: operations would need it as a starting point to know what to bring to competitions and how to set up the cart.
 With that in mind, the Systems Engineering dept shall consider everything the team will need to do at a competition, not just what happens during in matches.
 
+OA documentation should take the form of [Formal Use Cases](#formal-use-case-format) and requirements for the team.
+
 ### Match Plans
 
-Create a user story for every match scenario we need to be able to carry out to achieve our goals.
+Create a [Formal Use Case](#formal-use-case-format) for every match scenario we need to be able to carry out to achieve our goals.
 The robot should not be the actor at this stage, rather, we would write the user story as if the team is the actor.
 Match plans should be specific and granular. In 2025 that would mean enumerating the specific pegs and order to place coral.
 
@@ -146,6 +204,10 @@ This should start as soon as the strategy is complete and agreed upon.
 ## System Needs Analysis (SA)
 
 Given the [OA](#operational-analysis-oa), answer the question: "Of everything the team needs to do, what will the robot do?"
+
+The Systems Engineering dept shall designate which Use Cases and requirements created as part of the OA will be fulfilled by the robot.
+
+If a Use Case needs to be rewritten or split, the Systems Engineering dept shall write a new Use Case(s) that references and supersedes the old one.
 
 Software development for the main robot can start using the completed SA.
 
@@ -273,3 +335,6 @@ Assembly, Integration & Test, Launch Phase:
 
 - First Version Competition Robot: 2026-03-06
 - First District Qualifier (Gwinnett): 2026-03-13
+
+# Use Cases
+
