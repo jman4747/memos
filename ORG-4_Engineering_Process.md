@@ -22,7 +22,11 @@ All prototypes shall test a documented hypothesis.
 Team members building prototypes shall document:
 the hypothesis being tested, the part of the strategy they intend to fulfill, and the part of the system design they intend to implement.
 
+# Requirements
+
 ## User Stories
+
+Informal description of user needs and expectations.
 
 User Story Mapping is a method for capturing a narrative description of stakeholder goals and strategy.
 
@@ -30,7 +34,8 @@ User Stories are documented with sub-formal Use Cases and and other informal wri
 
 ## Use Cases
 
-Written behavioral requirements for the SuD.
+Use cases are used to capture functional requirements.
+Use cases take the form of a written description of the system's behavior.
 
 ### Sub-Formal Use Case Format
 
@@ -57,9 +62,23 @@ Written behavioral requirements for the SuD.
 - Secondary Actors
 - Open Issues
 
-## Requirements
+## Non-Functional Requirements
 
-Tables for functional requirements and for non-functional requirements for the SuD.
+Constraints on the systems composition that can be thought of as implementation decisions.
+
+Non-functional requirements take the form of short, atomic, "shall" statements collected into tables.
+
+### Non-Functional Requirement Table Fields
+
+- Unique Numerical ID
+- Component
+- Timestamp w/date, time (24H), UTC offset
+- Requirement text (shall statement)
+- Version number: auto-incrementing on each change
+- Author
+- Priority: Mandated, High, Medium, Low
+- Status: Accepted or Deleted
+- Risks
 
 # Concept Studies
 
@@ -335,6 +354,4 @@ Assembly, Integration & Test, Launch Phase:
 
 - First Version Competition Robot: 2026-03-06
 - First District Qualifier (Gwinnett): 2026-03-13
-
-# Use Cases
 
